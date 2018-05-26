@@ -13,9 +13,9 @@ def score(tally):
 
     for y in tally:
         if y.islower():
-            scoring[y.upper()] = scoring[y.upper()] + 1
+            scoring[y.upper()] += 1
         else:
-            scoring[y.upper()] = scoring[y.upper()] - 1
+            scoring[y.upper()] -= 1
 
     print(scoring)
 
