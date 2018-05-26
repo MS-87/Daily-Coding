@@ -1,3 +1,3 @@
 #program to test git functionality on vscode
 
-print("Hello world!")
+print("push me to the repo yo!")
