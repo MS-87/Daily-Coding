@@ -30,5 +30,14 @@ dbbaCEDbdAacCEAadcB: {'D': 2, 'B': 2, 'A': 1, 'C': 0, 'E': -2}
 EbAAdbBEaBaaBBdAccbeebaec: {'E': 1, 'B': 0, 'A': 1, 'D': 2, 'C': 3}
 '''
 
+'''
+Easier way:
+
+def tally(s):
+    players = {i.lower() for i in s}
+    res = ((i, s.count(i) - s.count(i.upper())) for i in players)
+    print(*sorted(res, key=lambda x: x[1], reverse=True)) 
+
+'''
 
 
