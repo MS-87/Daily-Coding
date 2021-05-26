@@ -2,3 +2,5 @@ TODO:
 Write an API for regex
 
 look up ast in python
+
+https://tomassetti.me/parsing-in-python/
